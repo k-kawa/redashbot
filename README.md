@@ -54,3 +54,9 @@ or if you need to specify REDASH_HOST_ALIAS for each Re:dash, like below
 ```
 REDASH_HOSTS_AND_API_KEYS="http://redash1.example.com;http://redash1-alias.example.com;TOKEN1,http://redash2.example.com;TOKEN2"
 ```
+
+### SLACK_MESSAGE_EVENTS (optional)
+
+Message events this bot reacts.
+Available values are listd in https://github.com/howdyai/botkit/blob/master/readme-slack.md#message-received-events
+Its default is *direct_message,direct_mention,mention*
